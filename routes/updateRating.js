@@ -11,7 +11,7 @@ var pool = mySQL.createPool({
 const AWS = require('aws-sdk');
 
 //console.log("Update Ratings")
-
+/* Function to update rating */
 function updateRating(req, res) {
     //console.log("Inside updateRating");
     var empno = req.body.emp_no;
