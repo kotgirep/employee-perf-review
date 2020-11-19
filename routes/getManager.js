@@ -11,6 +11,7 @@ var pool = mySQL.createPool({
 const AWS = require('aws-sdk');
 //console.log("getmanager")
 
+/* function to check if the user is employee or manager*/
 function getManager(req, res,next) {
     console.log("Inside getManager ")
     var employeeno = req.body.emp_no;
