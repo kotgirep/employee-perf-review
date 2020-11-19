@@ -10,6 +10,7 @@ var pool = mySQL.createPool({
 });
 
 //console.log("getEmployeeRating")
+/* Function to view the ratings as employee */
 function getEmployeeRating(req, res) {
     console.log("Inside getEmployeeRating")
     var employeeno = req.body.emp_no;
