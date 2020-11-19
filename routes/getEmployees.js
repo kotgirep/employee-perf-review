@@ -9,6 +9,7 @@ var pool = mySQL.createPool({
     password: "Techietribe"
 });
 
+/* get all the employees under a manager with same dept no*/
 function getEmployees(req, res) {
     console.log("Inside getEmployees ")
     var departno = req.body.dept_no;
