@@ -15,7 +15,7 @@ var getEmployeesRouter = require('./routes/getEmployees');
 var addRatingRouter = require('./routes/addRating');
 var updateRatingRouter = require('./routes/updateRating');
 var getEmployeeRatingRouter = require('./routes/getEmployeeRating');
-
+//var getChartRouter = require('./routes/getchart');
 app.set('views', path.join(__dirname, 'views'));
 //console.log("Inside app.js")
 app.set('view engine', 'html');
@@ -36,6 +36,7 @@ app.use('/getEmployees', getEmployeesRouter);
 app.use('/addRating', addRatingRouter);
 app.use('/updateRating', updateRatingRouter);
 app.use('/getEmployeeRating', getEmployeeRatingRouter);
+//app.use('/getchart', getChartRouter);
 
 //require('./routes/index.js')(app);
 
