@@ -49,6 +49,6 @@ function getManager(req, res,next) {
 }
 
 
-router.get('/', getManager);
+router.post('/', getManager);
 module.exports = router;
 module.exports.getManager = getManager;
