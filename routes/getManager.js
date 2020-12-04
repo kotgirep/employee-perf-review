@@ -15,22 +15,39 @@ const AWS = require('aws-sdk');
 function getManager(req, res,next) {
     console.log("Inside getManager ")
     var employeeno = req.body.emp_no;
-    console.log("Employee no is " +employeeno)
+    //console.log("Employee no is " +employeeno)
     pool.getConnection(function (err, connection) {
         if (err) throw err;
         connection.query("select * from `employees`.dept_manager where emp_no = " + employeeno,
             function (err, result, fields) {
-                connection.release();
-                if (err) {
-                    //res.json({})
-                    console.log(err);
+                console.log("result length is " + result.length)
+                if (result.length > 0) {
+                    return res.status(200).json(result);
+                } else {
+                    var sql =
+                        'select PunctualityAndDiscipline, ExecutionOfDuties, LearningAndDevelopment, TeamCooperation, ResponsibilityTaken from employees.emp_ratings where EmpNo = ' +
+                        employeeno;
+                    //console.log(sql);
+                    connection.query(sql, function (err, result, fields) {
+                        connection.release();
+                        if (err) console.log('error' + err);
+                        else {
+                           // console.log(typeof JSON.stringify(result));
+                           // var index = 0;
+                            // console.log('employee rating' + result);
+                            // Object.entries(result).forEach(([key, value]) =>
+                            //     //console.log(key, value)
+                            // );
+                            return res.status(200).json(result);
+                        }
+
+                    })
                 }
-                return res.status(200).json(result);
-
             })
-    })
 
+    })
 }
+
 
 router.get('/', getManager);
 module.exports = router;
