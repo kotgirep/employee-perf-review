@@ -1,6 +1,6 @@
 
 window.onload = function () {
-    var url = document.location.href,
+    /*var url = document.location.href,
         params = url.split('?')[1].split('&'),
         data = {}, tmp;
     for (var i = 0, l = params.length; i < l; i++) {
@@ -8,6 +8,10 @@ window.onload = function () {
          data[tmp[0]] = tmp[1];
     }
     listAllEmployees(data.deptID);
+    */
+   //var dept_id = $("#accesstoken").val();
+   var dept_id = 'd003';
+   listAllEmployees(dept_id)
 }
 
 
