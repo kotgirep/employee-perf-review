@@ -41,4 +41,9 @@ app.use('/getEmployeeRating', getEmployeeRatingRouter);
 //require('./routes/index.js')(app);
 
 //app.listen(port);
+
+app.get('/getEmpChart/:id', (req, res) => {
+    console.log("Inside users.js get employee")
+    res.sendFile(__dirname + '/public/charts.html');
+});
 module.exports = app;
