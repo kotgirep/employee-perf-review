@@ -2,19 +2,14 @@
 <html>
   <head>
     <link rel="stylesheet" href="/stylesheets/style.css" />
-    <style>
-      div {
-        background-image: url('employee.jpg');
-      }
-      </style>
+    
       </head>
   </head>
   <body>
     <h1>Upadate Rating</h1>
-    <a href="/updaterate.html">Update-Rating</a>
-    <a href="/login.html">Home-page</a>
-    <a href="/managerHome.html">Previous</a>
-    <img src="eval2.jpeg" width="500" height="500" >
+    
+    
+    <a href="managerHome.html?deptID=d003&empID=110228">Previous</a>
     
     
     <form id="form1">
@@ -63,15 +58,19 @@
             emp_no;
             
           xhr.onreadystatechange = function () {
+            //
+            
             if (xhr.readyState == 4) {
               // window.alert('xhr status: ' + xhr.status);
               if (xhr.status == 200) {
                 // var responsexhr = eval('(' + xhr.responseText + ')');
-                alert('Employee Rating updated sucessfully !');
-                // window.location = '/';
+                window.confirm('Employee Rating updated sucessfully !');
+                 window.location = '/';
+                xhr=" Employee Rating updated sucessfully";
               } else {
-                alert('not 200');
+                window.confirm('not 200');
                 window.location = '/';
+                //xhr=" Employee Rating  not updated ";
               }
             } else {
               

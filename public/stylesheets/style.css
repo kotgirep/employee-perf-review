@@ -31,10 +31,7 @@ input[type='button'] {
 input[type='button']:hover {
   background-color: #45a049;
 }
-img {
-  position: absolute;
-  right: 300px;
-}
+
 a {
   background-color: #2160c4;
   color: white;
