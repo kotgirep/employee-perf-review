@@ -16,8 +16,8 @@ function getEmployees(req, res) {
     console.log("Depart no is " +departno)
     pool.getConnection(function (err, connection) {
             if (err) throw err;
-            //connection.query("select employees.emp_no, employees.first_name,employees.last_name, employees.hire_date from `employees`.employees join `employees`.dept_emp on `employees`.employees.emp_no = `employees`.dept_emp.emp_no where `employees`.dept_emp.dept_no= '" + departno +"'",
-            connection.query("select employees.emp_no, employees.first_name, employees.last_name, employees.hire_date  from `employees`.employees join `employees`.dept_manager on `employees`.employees.emp_no = `employees`.dept_manager.emp_no where `employees`.dept_manager.dept_no= '" + departno +"'",         
+            connection.query("select employees.emp_no, employees.first_name,employees.last_name, employees.hire_date from `employees`.employees join `employees`.dept_emp on `employees`.employees.emp_no = `employees`.dept_emp.emp_no where `employees`.dept_emp.dept_no= '" + departno +"'",
+            //connection.query("select employees.emp_no, employees.first_name, employees.last_name, employees.hire_date  from `employees`.employees join `employees`.dept_manager on `employees`.employees.emp_no = `employees`.dept_manager.emp_no where `employees`.dept_manager.dept_no= '" + departno +"'",         
                 function (err, result, fields) {
                     connection.release();
                     if (err) console.log("error" + err)

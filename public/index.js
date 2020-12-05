@@ -23,7 +23,7 @@ fetch(fetchURL, {
       	if (result.length == 1) {
 		console.log(result);
         console.log(result[0].dept_no);
-        url = 'http\://localhost:3000/managerHome.html?deptID=' + result[0].dept_no;
+        url = 'http\://localhost:3000/managerHome.html?deptID=' + result[0].dept_no + '&empID=' + empID;
         document.location.href = url;
 	} else {
             //url = 'http\://localhost:3000/getEmpChart/'+ empID;

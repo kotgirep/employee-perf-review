@@ -26,9 +26,16 @@ var employeeno = req.body.logged_emp_no;
           function (err, result, fields) {
             console.log(JSON.stringify(result));
               if (err || result.length == 0) {
-                res.render('employeeHome');
+                //res.render('employeeHome', { name: "example" });
+                console.log("placeholder");
+                console.log(result);
+                url = 'http\://localhost:3000/employeeHome.html?empID=' + employeeno;
+                res.redirect(url);
               } else{
-                res.render('managerHome');
+                result =  JSON.parse(JSON.stringify(result));
+                //console.log(result[0].emp_no);
+                url = 'http\://localhost:3000/managerHome.html?deptID=' + result[0].dept_no + '&empID=' + employeeno;;
+                res.redirect(url);
               }
           });
   })
