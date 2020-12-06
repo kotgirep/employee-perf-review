@@ -34,7 +34,7 @@
             var processed_json = new Array();
             var index = 0;
             $.getJSON(
-              'http://localhost:3000/getEmployeeRating?emp_no=' + emp_no,
+              'http://perfreview.ml/getEmployeeRating?emp_no=' + emp_no,
               function (data) {
                 // Populate series
                 Object.entries(data[0]).forEach(
@@ -89,7 +89,7 @@
 
           //   data.append('inputFile', fname.files[0], fname.value);
           var upload_url =
-            'http://localhost:3000/getEmployeeRating?emp_no=' + emp_no;
+            'http://perfreview.ml/getEmployeeRating?emp_no=' + emp_no;
           xhr.open('GET', upload_url, false);
           xhr.send(data);
           resetForm();

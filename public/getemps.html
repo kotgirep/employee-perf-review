@@ -28,7 +28,7 @@
       </table>
     </div>
     <script>
-      fetch('http://localhost:3000/getEmployees?dept_no=d005').then((res) => {
+      fetch('http://perfreview.ml/getEmployees?dept_no=d005').then((res) => {
         res.json().then((data) => {
           console.log(data);
           if (data.length > 0) {
