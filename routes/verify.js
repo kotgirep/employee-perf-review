@@ -23,6 +23,9 @@ var verifyUser = function (req, res, next) {
         if (err) throw err;
         connection.query("select * from `employees`.emp_email where email = '" + email + "'",
             function (err, result, fields) {
+                if(err || !result || result.length == 0){
+                    res.redirect('/logout');
+                }
                 console.log("req.body.logged_emp_no");
                 console.log(req.body.logged_emp_no);
                 req.body.logged_emp_no = result[0]['emp_no'];
