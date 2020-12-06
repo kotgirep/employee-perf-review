@@ -30,13 +30,12 @@ Configure Filebeat to point to Elastic-search and Kibana
 Modified nginx.yml in modules.d in Filebeat to point to correct access and error logs.
 Run Filebeat
 
-### Git Repo: https://github.com/kotgirep/employee-perf-review/tree/master
 ### Test Account Credentials : 
 #### Manager : 2mathe@skvorets.com / Apple@123
 #### Employee:
-cajef21689@1heizi.com / Apple@123
-supriyameduri@gmail.com / Apple@123
-vskgtm@gmail.com / Apple@123
+1. cajef21689@1heizi.com / Apple@123
+2. supriyameduri@gmail.com / Apple@123
+3. vskgtm@gmail.com / Apple@123
 
 ### Architecture Diagram
 
