@@ -55,9 +55,10 @@ Run Filebeat
 ## AWS Architecture Diagram: 
 ![272 Project](https://user-images.githubusercontent.com/71044935/101294259-0c594d80-37cb-11eb-9ef7-c08566526a96.png)
 
-
 ## CI/CD Screenshots: 
+![Screen Shot 2020-12-06 at 11 30 19 PM](https://user-images.githubusercontent.com/68761598/101324233-c29a5280-381e-11eb-9be7-b6a1e043c182.png)
 
+![Screen Shot 2020-12-06 at 11 30 31 PM](https://user-images.githubusercontent.com/68761598/101324285-d80f7c80-381e-11eb-8cc2-df0872a139ad.png)
 
 ## Sample Demo Screenshots:
 
