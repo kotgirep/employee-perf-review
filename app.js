@@ -6,7 +6,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var verifySession = require('./routes/verify');
+var verifySession = require('./routes/verify'); 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var getManagerRouter = require('./routes/getManager');
@@ -31,6 +31,7 @@ const oidc = new ExpressOIDC({
     },
   }
 });
+// okta verifies the session of the current user
 app.use(session({
   secret: process.env.SESSION_SECRET,
   resave: true,
