@@ -3,8 +3,8 @@
 ssh ubuntu@52.71.116.115 <<EOF
     cd ~/employee-perf-review/
     git pull origin master
-    lsof -t -i:3000 | xargs kill
     npm install
-    `nohup npm start > nohup.out` &
+    npm install -g nodemon pm2
+    pm2 restart ecosystem.config.js
     exit
 EOF
