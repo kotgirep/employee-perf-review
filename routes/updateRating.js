@@ -4,9 +4,9 @@ var mySQL = require('mysql');
 
 var pool = mySQL.createPool({
   connectionLimit: 1000,
-  host: 'employee-database.c1ty2hg1gwnk.us-west-1.rds.amazonaws.com',
+  host: 'employee-database.cog0es3hfp6n.us-east-1.rds.amazonaws.com',
   user: 'admin',
-  password: 'Techietribe',
+  password: 'Awsproject',
 });
 const AWS = require('aws-sdk');
 

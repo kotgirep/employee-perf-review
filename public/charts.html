@@ -46,7 +46,8 @@
           var processed_json = new Array();
           var index = 0;
           $.getJSON(
-            'http://perfreview.ml/getEmployeeRating?emp_no=' + emp_no,
+            'https://7pm2tuvgei.execute-api.us-east-1.amazonaws.com/prod/rating?emp_no=' +
+              emp_no,
             function (data) {
               console.log(data);
               // Populate series
@@ -102,7 +103,8 @@
 
         //   data.append('inputFile', fname.files[0], fname.value);
         var upload_url =
-          'http://perfreview.ml/getEmployeeRating?emp_no=' + emp_no;
+          'https://7pm2tuvgei.execute-api.us-east-1.amazonaws.com/prod/rating?emp_no=' +
+          emp_no;
         xhr.open('GET', upload_url, false);
         xhr.send(data);
       }

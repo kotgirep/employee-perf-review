@@ -52,7 +52,7 @@
             tmp = params[i].split('=');
             data[tmp[0]] = tmp[1];
           }
-          url = 'http://perfreview.ml/getEmpChart/' + data.empID;
+          url = 'http://localhost:3000/getEmpChart/' + data.empID;
 
           document.location.href = url;
         };

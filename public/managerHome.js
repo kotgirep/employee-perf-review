@@ -11,19 +11,17 @@ window.onload = function () {
 };
 
 function listAllEmployees(deptNo, reset = true) {
-  console.log('inside priti');
-  const fetchURL = 'http://perfreview.ml/getEmployees';
-
-  const deptID = {
-    dept_no: deptNo,
-  };
+  console.log('inside list of all the employees');
+  const fetchURL =
+    'https://7pm2tuvgei.execute-api.us-east-1.amazonaws.com/prod/employees?dept_no=' +
+    deptNo;
 
   fetch(fetchURL, {
-    method: 'POST',
+    method: 'GET',
     mode: 'cors', // no-cors, *cors, same-origin
     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
     credentials: 'same-origin', // include, *same-origin, omit
-    body: JSON.stringify(deptID),
+    //body: JSON.stringify(deptID),
     headers: {
       'content-type': 'application/json',
     },
@@ -33,7 +31,7 @@ function listAllEmployees(deptNo, reset = true) {
       console.log(result.statuses);
       console.log(result);
       slicedResult = result.slice(1, 100);
-      //result.forEach(status => {
+
       slicedResult.forEach((status) => {
         console.log(status);
         var newRow = $('<tr>');
@@ -63,7 +61,7 @@ function listAllEmployees(deptNo, reset = true) {
 }
 
 function rateMe() {
-  url = 'http://perfreview.ml/rate.html';
+  url = 'http://localhost:3000/rate.html';
   document.location.href = url;
 }
 function showChart() {
@@ -76,16 +74,16 @@ function showChart() {
     data[tmp[0]] = tmp[1];
   }
   //alert(data.empID);
-  url = 'http://perfreview.ml/employeeHome.html?empID=' + data.empID;
+  url = 'http://localhost:3000/employeeHome.html?empID=' + data.empID;
   document.location.href = url;
 }
 
 function showRating(empID) {
-  url = 'http://perfreview.ml/employeeHome.html?empID=' + empID;
+  url = 'http://localhost:3000/employeeHome.html?empID=' + empID;
   document.location.href = url;
 }
 
 function updateRating() {
-  url = 'http://perfreview.ml/updaterate.html';
+  url = 'http://localhost:3000/updaterate.html';
   document.location.href = url;
 }

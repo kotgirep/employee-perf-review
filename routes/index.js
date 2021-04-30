@@ -4,9 +4,9 @@ var mySQL = require('mysql');
 
 var pool = mySQL.createPool({
   connectionLimit: 1000,
-  host: 'employee-database.c1ty2hg1gwnk.us-west-1.rds.amazonaws.com',
+  host: 'employee-database.cog0es3hfp6n.us-east-1.rds.amazonaws.com',
   user: 'admin',
-  password: 'Techietribe',
+  password: 'Awsproject',
 });
 
 /* GET home page. */
@@ -24,16 +24,15 @@ router.get('/', function (req, res, next) {
       function (err, result, fields) {
         console.log(JSON.stringify(result));
         if (err || result.length == 0) {
-          //res.render('employeeHome', { name: "example" });
           console.log('placeholder');
           console.log(result);
-          url = 'http://perfreview.ml/employeeHome.html?empID=' + employeeno;
+          url = 'http://localhost:3000/employeeHome.html?empID=' + employeeno;
           res.redirect(url);
         } else {
           result = JSON.parse(JSON.stringify(result));
           //console.log(result[0].emp_no);
           url =
-            'http://perfreview.ml/managerHome.html?deptID=' +
+            'http://localhost:3000/managerHome.html?deptID=' +
             result[0].dept_no +
             '&empID=' +
             employeeno;

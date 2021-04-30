@@ -1,6 +1,6 @@
 function checkManager(empID, reset = true) {
   console.log('inside priti');
-  const fetchURL = 'http://perfreview.ml/getManager';
+  const fetchURL = 'http://localhost:3000/getManager';
 
   const deptID = {
     emp_no: empID,
@@ -24,13 +24,13 @@ function checkManager(empID, reset = true) {
         console.log(result);
         console.log(result[0].dept_no);
         url =
-          'http://perfreview.ml/managerHome.html?deptID=' +
+          'http://localhost:3000/managerHome.html?deptID=' +
           result[0].dept_no +
           '&empID=' +
           empID;
         document.location.href = url;
       } else {
-        url = 'http://perfreview.ml/employeeHome.html?empID=' + empID;
+        url = 'http://localhost:3000/employeeHome.html?empID=' + empID;
         document.location.href = url;
       }
     });
