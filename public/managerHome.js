@@ -61,7 +61,8 @@ function listAllEmployees(deptNo, reset = true) {
 }
 
 function rateMe() {
-  url = 'http://localhost:3000/rate.html';
+  url =
+    'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/rate.html';
   document.location.href = url;
 }
 function showChart() {
@@ -74,16 +75,21 @@ function showChart() {
     data[tmp[0]] = tmp[1];
   }
   //alert(data.empID);
-  url = 'http://localhost:3000/employeeHome.html?empID=' + data.empID;
+  url =
+    'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/employeeHome.html?empID=' +
+    data.empID;
   document.location.href = url;
 }
 
 function showRating(empID) {
-  url = 'http://localhost:3000/employeeHome.html?empID=' + empID;
+  url =
+    'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/employeeHome.html?empID=' +
+    empID;
   document.location.href = url;
 }
 
 function updateRating() {
-  url = 'http://localhost:3000/updaterate.html';
+  url =
+    'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/updaterate.html';
   document.location.href = url;
 }
