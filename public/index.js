@@ -1,7 +1,7 @@
 function checkManager(empID, reset = true) {
   console.log('inside priti');
   const fetchURL =
-    'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/getManager';
+    'http://ec2-3-135-227-91.us-east-2.compute.amazonaws.com:3000/getManager';
 
   const deptID = {
     emp_no: empID,
@@ -25,14 +25,14 @@ function checkManager(empID, reset = true) {
         console.log(result);
         console.log(result[0].dept_no);
         url =
-          'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/managerHome.html?deptID=' +
+          'http://ec2-3-135-227-91.us-east-2.compute.amazonaws.com:3000/managerHome.html?deptID=' +
           result[0].dept_no +
           '&empID=' +
           empID;
         document.location.href = url;
       } else {
         url =
-          'http://ec2-18-222-150-40.us-east-2.compute.amazonaws.com:3000/employeeHome.html?empID=' +
+          'http://ec2-3-135-227-91.us-east-2.compute.amazonaws.com:3000/employeeHome.html?empID=' +
           empID;
         document.location.href = url;
       }
