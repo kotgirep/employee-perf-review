@@ -4,7 +4,7 @@
       <env name="DEBUG" value="untitled:*" />
     </envs>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser url="http://perfportaltechietribe.ml/" />
+      <browser url="http://www.perfportaltechietribe.ml/" />
     </EXTENSION>
     <method v="2" />
   </configuration>
