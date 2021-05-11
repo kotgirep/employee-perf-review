@@ -27,14 +27,14 @@ router.get('/', function (req, res, next) {
           console.log('placeholder');
           console.log(result);
           url =
-            'http://ec2-3-135-227-91.us-east-2.compute.amazonaws.com:3000/employeeHome.html?empID=' +
+            'http://perfportaltechietribe.ml/employeeHome.html?empID=' +
             employeeno;
           res.redirect(url);
         } else {
           result = JSON.parse(JSON.stringify(result));
           //console.log(result[0].emp_no);
           url =
-            'http://ec2-3-135-227-91.us-east-2.compute.amazonaws.com:3000/managerHome.html?deptID=' +
+            'http://perfportaltechietribe.ml/managerHome.html?deptID=' +
             result[0].dept_no +
             '&empID=' +
             employeeno;
