@@ -27,14 +27,14 @@ router.get('/', function (req, res, next) {
           console.log('placeholder');
           console.log(result);
           url =
-            'https://www.perfportaltechietribe.ml/employeeHome.html?empID=' +
+            'http://www.perfportaltechietribe.ml/employeeHome.html?empID=' +
             employeeno;
           res.redirect(url);
         } else {
           result = JSON.parse(JSON.stringify(result));
           //console.log(result[0].emp_no);
           url =
-            'https://www.perfportaltechietribe.ml/managerHome.html?deptID=' +
+            'http://www.perfportaltechietribe.ml/managerHome.html?deptID=' +
             result[0].dept_no +
             '&empID=' +
             employeeno;
