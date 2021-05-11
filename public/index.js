@@ -1,6 +1,6 @@
 function checkManager(empID, reset = true) {
   console.log('inside priti');
-  const fetchURL = 'http://www.perfportaltechietribe.ml/getManager';
+  const fetchURL = 'https://www.perfportaltechietribe.ml/getManager';
 
   const deptID = {
     emp_no: empID,
@@ -24,14 +24,14 @@ function checkManager(empID, reset = true) {
         console.log(result);
         console.log(result[0].dept_no);
         url =
-          'http://www.perfportaltechietribe.ml/managerHome.html?deptID=' +
+          'https://www.perfportaltechietribe.ml/managerHome.html?deptID=' +
           result[0].dept_no +
           '&empID=' +
           empID;
         document.location.href = url;
       } else {
         url =
-          'http://www.perfportaltechietribe.ml/employeeHome.html?empID=' +
+          'https://www.perfportaltechietribe.ml/employeeHome.html?empID=' +
           empID;
         document.location.href = url;
       }
