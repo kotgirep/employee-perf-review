@@ -61,7 +61,7 @@ function listAllEmployees(deptNo, reset = true) {
 }
 
 function rateMe() {
-  url = 'http://www.perfportaltechietribe.ml/rate.html';
+  url = 'https://www.perfportaltechietribe.ml/rate.html';
   document.location.href = url;
 }
 function showChart() {
@@ -75,16 +75,17 @@ function showChart() {
   }
   //alert(data.empID);
   url =
-    'http://www.perfportaltechietribe.ml/employeeHome.html?empID=' + data.empID;
+    'https://www.perfportaltechietribe.ml/employeeHome.html?empID=' +
+    data.empID;
   document.location.href = url;
 }
 
 function showRating(empID) {
-  url = 'http://www.perfportaltechietribe.ml/employeeHome.html?empID=' + empID;
+  url = 'https://www.perfportaltechietribe.ml/employeeHome.html?empID=' + empID;
   document.location.href = url;
 }
 
 function updateRating() {
-  url = 'http://www.perfportaltechietribe.ml/updaterate.html';
+  url = 'https://www.perfportaltechietribe.ml/updaterate.html';
   document.location.href = url;
 }
