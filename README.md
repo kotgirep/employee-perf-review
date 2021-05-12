@@ -92,6 +92,7 @@ Manager can update ratings already provided to employees, by clicking the ‘Upd
 <img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="450">
 
 When manager update rating, alert pops up as shown below
+
 <img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%201.08.12%20PM.png" width="450">
 
 Employee login as using okta
