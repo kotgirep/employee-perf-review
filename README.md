@@ -85,8 +85,9 @@ Once the Manager hits ‘Submit Rating’ button , alert pops up as shown below
 
 Manager can view the rating already provided to the employee through ‘Show Rating’ option
 
+
 Manager can update ratings already provided to employees, by clicking the ‘Update Rating’ option.
-<img srec="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="650">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="650">
 
 Employee login as using okta
 <img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%2010.01.54%20AM.png" width="650">
