@@ -1,11 +1,11 @@
 ## Perf Review
 ### San Jose State University
-### CMPE-272 :Enterprise Software Platforms
+### CMPE-282 :Cloud Services
 
 ### Professor: Andrew Bond
 ### ISA: Juhi Nayak
 ### Group Name:Techie Tribe
-### Team Members: Bhavya Tetali, Pranjali Kotgire,Priti Sharma, Supriya Meduri
+### Team Members: Bhavya Tetali, Pranjali Kotgire,Sneha Patil, Supriya Meduri
 
 ### Project Introduction:
 
@@ -31,11 +31,11 @@ Modified nginx.yml in modules.d in Filebeat to point to correct access and error
 Run Filebeat
 
 ### Test Account Credentials : 
-#### Manager : 2mathe@skvorets.com / Apple@123
+#### Manager : pranjalikotgire57@gmail.com / Apple@123
 #### Employee:
-1. cajef21689@1heizi.com / Apple@123
+1. sneha.magdum11@gmail.com / Apple@123
 2. supriyameduri@gmail.com / Apple@123
-3. vskgtm@gmail.com / Apple@123
+3. bhavyatetali3@gmail.com / Apple@123
 
 ### Architecture Diagram
 
