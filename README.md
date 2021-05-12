@@ -23,14 +23,6 @@ RDS - For accessing employee data in the default project
 Okta Single sign on using OIDC
 Jenkins - For CI/CD
 
-### Kibana Dashboard set up
-Install Nginx 
-Install Elastic-search and kibana 
-Install filebeat 
-Configure Filebeat to point to Elastic-search and Kibana
-Modified nginx.yml in modules.d in Filebeat to point to correct access and error logs.
-Run Filebeat
-
 ### Test Account Credentials : 
 #### Manager : pranjalikotgire57@gmail.com / Apple@123
 #### Employee:
