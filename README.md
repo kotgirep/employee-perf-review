@@ -3,7 +3,7 @@
 ### CMPE-282 :Cloud Services
 
 ### Professor: Andrew Bond
-### ISA: Juhi Nayak
+### ISA: Akanksha Jaiswal
 ### Group Name:Techie Tribe
 ### Team Members: Bhavya Tetali, Pranjali Kotgire,Sneha Patil, Supriya Meduri
 
@@ -13,6 +13,7 @@ Perf Review is an enterprise application that allows two role based access.
 Managers and Employees to securely login through Single Sign On. 
 The manager can provide the employee with ratings, view the employee ratings already provided in the chart. 
 Also the employees can view the ratings provided by the manager.
+Applcation has a chatbot feature where manager can rate employee and update feedback given to the employees.
 
 ### Tech Stack
 Node.js
