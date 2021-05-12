@@ -87,13 +87,13 @@ Manager can view the rating already provided to the employee through ‘Show Rat
 
 
 Manager can update ratings already provided to employees, by clicking the ‘Update Rating’ option.
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="650">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="450">
 
 Employee login as using okta
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%2010.01.54%20AM.png" width="650">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%2010.01.54%20AM.png" width="450">
 
 Employees can login and check the ratings provided by the Manager.
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="650">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="450">
 
 
 
