@@ -67,6 +67,8 @@ Home page of the application : Our Home page has a login option for Manager or E
 
 Okta Sign In Page: Login as Manager using okta
 
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%2010.01.40%20AM.png" width="450">
+
 Manager View: When a Manager signs in, the employees under his department are populated.
 <img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.36.15%20PM.png" width="450">
 
