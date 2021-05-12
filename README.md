@@ -97,7 +97,7 @@ Employee login as using okta
 
 Employees can login and check the ratings provided by the Manager.
 
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="450">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="650">
 
 
 
