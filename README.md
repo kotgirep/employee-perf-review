@@ -81,13 +81,18 @@ Add Rating: Manager can add rating to any employee using ‘Rate Employee’ opt
 <img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.17%20PM.png" width="450">
 
 Once the Manager hits ‘Submit Rating’ button , alert pops up as shown below
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%201.07.28%20PM.png" width="450">
 
 Manager can view the rating already provided to the employee through ‘Show Rating’ option
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="650">
 
 
 Manager can update ratings already provided to employees, by clicking the ‘Update Rating’ option.
 
 <img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="450">
+
+When manager update rating, alert pops up as shown below
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%201.08.12%20PM.png" width="450">
 
 Employee login as using okta
 
