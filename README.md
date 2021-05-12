@@ -79,7 +79,7 @@ ChatBot: When manager signs in, he can see a chat bot which helps manager to add
 
 Add Rating: Manager can add rating to any employee using ‘Rate Employee’ option.
 
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.17%20PM.png" width="650">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.17%20PM.png" width="450">
 
 Once the Manager hits ‘Submit Rating’ button , alert pops up as shown below
 
