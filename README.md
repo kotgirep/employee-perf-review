@@ -39,7 +39,7 @@ Run Filebeat
 3. bhavyatetali3@gmail.com / Apple@123
 
 ### Architecture Diagram
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/CMPE-282%20Architecture.png" width="650">
+<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/CMPE-282%20Architecture.png" width="750">
 
 ## DB Employees :
 <img width="838" alt="Screen Shot 2020-12-03 at 11 29 03 AM" src="https://user-images.githubusercontent.com/71044935/101294301-49bddb00-37cb-11eb-8e27-ae178ef97ee0.png">
