@@ -53,9 +53,6 @@ Run Filebeat
 ## Single Sign On Using Okta:
 <img width="1270" alt="Screen Shot 2020-12-04 at 2 07 47 PM" src="https://user-images.githubusercontent.com/71044935/101294331-74a82f00-37cb-11eb-9c3e-f15422da2f9f.png">
 
-## AWS Architecture Diagram: 
-![272 Project](https://user-images.githubusercontent.com/71044935/101294259-0c594d80-37cb-11eb-9ef7-c08566526a96.png)
-
 ## CI/CD Screenshots: 
 ![Screen Shot 2020-12-06 at 11 30 19 PM](https://user-images.githubusercontent.com/68761598/101324233-c29a5280-381e-11eb-9be7-b6a1e043c182.png)
 
