@@ -55,6 +55,7 @@ Jenkins - For CI/CD
 ![Screen Shot 2020-12-06 at 11 30 31 PM](https://user-images.githubusercontent.com/68761598/101324285-d80f7c80-381e-11eb-8cc2-df0872a139ad.png)
 
 ## Sample Demo Screenshots:
+ Added in the document
 
 
 
