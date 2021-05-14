@@ -1,0 +1,27 @@
+service: perf-bot
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  getEmpInfoForAdd:
+    handler: handler.getEmpInfoForAdd
+  saveRatingsInSessionForAdd:
+    handler: handler.saveRatingsInSessionForAdd
+  addFeedback:
+    handler: handler.addFeedback
+  getEmpInfoForUpdate:
+    handler: handler.getEmpInfoForUpdate
+  saveRatingsInSessionForUpdate:
+    handler: handler.saveRatingsInSessionForUpdate
+  updateFeedback:
+    handler: handler.updateFeedback
+
+
+
+
+
+
