@@ -58,7 +58,7 @@ pranjalikotgire57@gmail.com / Apple@123
 ![Screen Shot 2021-05-09 at 12 03 36 AM](https://user-images.githubusercontent.com/68761598/118333189-299fef80-b4c0-11eb-80ff-d00031d89951.png)
 
 ## Sample Demo Screenshots:
- * [CMPE 282 - FinalProjectDocument]()
+ * Please refer [CMPE 282 - FinalProjectDocument]() for application screenshots with detailed description.
 
 
 
