@@ -50,9 +50,11 @@ Jenkins - For CI/CD
 <img width="1270" alt="Screen Shot 2020-12-04 at 2 07 47 PM" src="https://user-images.githubusercontent.com/71044935/101294331-74a82f00-37cb-11eb-9c3e-f15422da2f9f.png">
 
 ## CI/CD Screenshots: 
-![Screen Shot 2020-12-06 at 11 30 19 PM](https://user-images.githubusercontent.com/68761598/101324233-c29a5280-381e-11eb-9be7-b6a1e043c182.png)
+![Screen Shot 2021-05-09 at 12 01 52 AM](https://user-images.githubusercontent.com/68761598/118333125-09703080-b4c0-11eb-91dd-51d8e5ba1b1b.png)
 
-![Screen Shot 2020-12-06 at 11 30 31 PM](https://user-images.githubusercontent.com/68761598/101324285-d80f7c80-381e-11eb-8cc2-df0872a139ad.png)
+![Screen Shot 2021-05-09 at 12 02 55 AM](https://user-images.githubusercontent.com/68761598/118333151-1c830080-b4c0-11eb-994d-68b037025947.png)
+
+![Screen Shot 2021-05-09 at 12 03 36 AM](https://user-images.githubusercontent.com/68761598/118333189-299fef80-b4c0-11eb-80ff-d00031d89951.png)
 
 ## Sample Demo Screenshots:
  Added in the document
