@@ -13,7 +13,7 @@ Perf Review is an enterprise application that allows two role based access.
 Managers and Employees to securely login through Single Sign On. 
 The manager can provide the employee with ratings, view the employee ratings already provided in the chart. 
 Also the employees can view the ratings provided by the manager.
-Applcation has a chatbot feature where manager can rate employee and update feedback given to the employees.
+Application has a chatbot feature where manager can rate employee and update feedback given to the employees.
 
 ### Tech Stack
 Node.js
@@ -27,7 +27,8 @@ Jenkins - For CI/CD
 * [perfportaltechietribe](https://www.perfportaltechietribe.ml/)
 
 ### Test Account Credentials : 
-#### Manager : pranjalikotgire57@gmail.com / Apple@123
+#### Manager : 
+pranjalikotgire57@gmail.com / Apple@123
 #### Employee:
 1. sneha.magdum11@gmail.com / Apple@123
 2. supriyameduri@gmail.com / Apple@123
@@ -57,7 +58,7 @@ Jenkins - For CI/CD
 ![Screen Shot 2021-05-09 at 12 03 36 AM](https://user-images.githubusercontent.com/68761598/118333189-299fef80-b4c0-11eb-80ff-d00031d89951.png)
 
 ## Sample Demo Screenshots:
- Added in the document
+ * [CMPE 282 - FinalProjectDocument]()
 
 
 
