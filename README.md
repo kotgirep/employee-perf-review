@@ -56,55 +56,6 @@ Jenkins - For CI/CD
 
 ## Sample Demo Screenshots:
 
-Home page of the application : Our Home page has a login option for Manager or Employee to login.
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-10%20at%2011.52.06%20PM.png" width="650">
-
-Okta Sign In Page: Login as Manager using okta
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%2010.01.40%20AM.png" width="450">
-
-
-Manager View: When a Manager signs in, the employees under his department are populated.
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.36.15%20PM.png" width="650">
-
-
-ChatBot: When manager signs in, he can see a chat bot which helps manager to add employee rating and update the employee rating
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.36.52%20PM.png" width="650">
-
-
-Add Rating: Manager can add rating to any employee using ‘Rate Employee’ option.
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.17%20PM.png" width="450">
-
-
-Once the Manager hits ‘Submit Rating’ button , alert pops up as shown below
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%201.07.28%20PM.png" width="450">
-
-Manager can view the rating already provided to the employee through ‘Show Rating’ option
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="650">
-
-
-Manager can update ratings already provided to employees, by clicking the ‘Update Rating’ option.
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.37.36%20PM.png" width="450">
-
-When manager update rating, alert pops up as shown below
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%201.08.12%20PM.png" width="450">
-
-Employee login as using okta
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-12%20at%2010.01.54%20AM.png" width="450">
-
-Employees can login and check the ratings provided by the Manager.
-
-<img src="https://github.com/kotgirep/employee-perf-review/blob/master/Images/Screen%20Shot%202021-05-11%20at%2010.38.21%20PM.png" width="650">
-
 
 
 
