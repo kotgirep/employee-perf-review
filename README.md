@@ -26,6 +26,9 @@ Jenkins - For CI/CD
 ### Application Link:
 * [perfportaltechietribe](https://www.perfportaltechietribe.ml/)
 
+### Demo Link:
+*[CMPE-282ProjectDemo](https://youtu.be/DZafk4r9mHQ)
+
 ### Test Account Credentials : 
 #### Manager : 
 pranjalikotgire57@gmail.com / Apple@123
