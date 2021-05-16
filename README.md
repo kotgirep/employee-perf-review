@@ -13,15 +13,22 @@ Perf Review is an enterprise application that allows two role based access.
 Managers and Employees to securely login through Single Sign On. 
 The manager can provide the employee with ratings, view the employee ratings already provided in the chart. 
 Also the employees can view the ratings provided by the manager.
-Application has a chatbot feature where manager can rate employee and update feedback given to the employees.
+Application has a chatbot feature where manager can rate employee and update feedback given to the employees.This application is serverless. 
 
 ### Tech Stack
 Node.js
 Express 
 HTML, Javascript, Bootstrap
 RDS - For accessing employee data in the default project
+Lambda - For writing serverless api 
 Okta Single sign on using OIDC
 Jenkins - For CI/CD
+
+### Serverless Advantages:
+*  It responds to changes faster.
+*  Automatically scales from lower to peak demand.
+*  Language agnostic application apis
+*  Pay only for the consumed compute time  no need to pay for idle.
 
 ### Application Link:
 * [perfportaltechietribe](https://www.perfportaltechietribe.ml/)
